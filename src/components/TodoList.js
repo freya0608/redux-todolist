@@ -4,6 +4,7 @@ import Todo from './Todo'
 
 const TodoList = ({ todos, toggleTodo }) => (
   <ul>
+    {console.log('components todo list todos',todos)}
     {todos.map(todo =>
       <Todo
         key={todo.id}
